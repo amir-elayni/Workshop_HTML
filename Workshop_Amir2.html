@@ -1,150 +1,200 @@
 <!DOCTYPE html>
 
 
-<html>
+<html lang="en">
 
 <head>
 
-      
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <meta name="author" content="Med AMIR ELAYNI">
       <meta name="Description" content="This page contains what i learnt from HTML course">
 
+      <link rel="stylesheet" type="text/css" href="./style.css" />
+      <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet'>
+
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css" />
+              
+
+      <link rel="icon" href="./174854.png" />
+
+
       <title>My First Web Page !</title>
-      
+
 </head>
 
 
 <body>
 
-<h1>WELCOME TO MY FIRST WEB PAGE !! </h1>
 
-
-
-<header>
-
- <nav>
-     <table >
 
       
-      <tr>
-
-        <td> <a href="#about" title="about page">About </td>
-        <td> <a href="#work" title="Work page" > Work</td>
-        <td> <a href="#resume" title="Resume Page">Resume</td>
-        <td> <a href="#contact" title="Contact Page">Contact</td>
-
-      </tr>
-
-
-    </table>
-
-</nav>
-
-
-</header>
-
-
-<main>
- <hr>
-
- <section id="about">
-
-   
-      <h2>About</h2>
-
-     <p> I'm ready to learn HTML as soon as possible </p>
-
-
-   <img src="C:\Users\maiso\OneDrive\Bureau\GoMyCode\Workshop\html5.png"alt="HTML5 logo" width="380" height="300"/>
-
- </section>
-
-
- 
-
-
-<section id="work">
-
-      <h2>Work</h2>
-
-<p>Work as a Full stack developer is a dream for me !! </p>
-
-
-<img src="C:\Users\maiso\OneDrive\Bureau\GoMyCode\Workshop\ga.jpg" width="700" height="500"/>
-
-
-</section>
+      <h1>WELCOME TO MY FIRST WEB PAGE !! </h1>
 
 
 
-<section id="resume">
+      <header>
 
-      <H1>Resume</H1>
-
-      <iframe src="https://www.youtube.com/embed/zcTFG_F0FRs" 
-               width="420" height="315">
-
-      </iframe>
-
-</section>
+            <nav class="navbar">
 
 
+                        
 
-<section id="contact">
-      
-      <h1> Contact </h1>
+                               <a href="#about" title="about paragraphe" style="color:goldenrod"> <h3 >About</h3> </a>
+                               <a href="#work" title="Work paragraphe" style="color:black"><h3>Work</h3> </a>
+                               <a href="#resume" title="Resume paragraphe" style="color:goldenrod"><h3>Resume</h3></a>
+                               <a href="#contact" title="Contact paragraphe" style="color: black"><h3>Contact</h3> </a>
+                              
 
-<img src="C:\Users\maiso\OneDrive\Bureau\GoMyCode\Workshop\contact.jpg" width="420" height="315">
+                        
+            </nav>
 
 
-<form>
-      <label>Your Name:</label>
-      <input type="text" name="first name" placeholder="Type your name here" />
-      <br />
+      </header>
 
-      <label>Your Number:</label>
-      <input type="number" name="number" value="" />
-      <br />
-      <label> Your Mail adress</label>
-      <input type="mail" />
-</br>
-      <textarea name="message" cols="50" rows="20">
+
+      <main>
+            <hr>
+
+            <section id="about">
+
+
+                  <h2 class="spec">About</h2>
+
+                  <p class="spec"> I'm ready to learn HTML as soon as possible </p>
+
+
+                  <img src="./icone_html-.png" alt="HTML5 logo" width="380" height="300" />
+
+            </section>
+
+<!-- Ceci est un commentaire  -->
+
+            <div>
+                  <p>
+
+                        Lorem ipsum,i dolor sit amet consectetur adipisicing elit. Magni fugit similique,
+                        maiores eius possimus voluptate in deleniti delectus sed
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic beatae reiciendis porro iste?
+                        Nostrum dolorem quasi dolore aliquam ad tenetur quaerat. Nesciunt modi incidunt assumenda sed
+                        accusamus cupiditate temporibus voluptate.
+                        Deleniti odit molestiae adipisci voluptate, harum quos quisquam quod qui delectus labore
+                        exercitationem veritatis sunt quas eos in unde minima voluptas quae. Cumque aut necessitatibus
+                        optio culpa sint. Reprehenderit, aut?
+                        
+                  </p>
+            </div>
+            
+
+
+
+            <section id="work">
+
+                  <h2>Work</h2>
+
+                  <p>Work as a Full stack developer is a dream for me !! </p>
+
+
+                  <img src="./differences-html-html5.png.webp" width="700" height="500" />
+
+
+            </section>
+
+
+
+            <section id="resume">
+
+                  <H1>Resume</H1>
+
+                  <iframe src="https://www.youtube.com/embed/zcTFG_F0FRs" width="420" height="315">
+
+                  </iframe>
+
+            </section>
+
+
+
+            <section id="contact">
+
+                  <h1> Contact </h1>
+
+
+
+
+             
+
+
+
+
+                  <form>
+                        <label>Your Name:</label>
+                        <input type="text" name="first name" placeholder="Type your name here" id="name"/>
+                        <br />
+
+                        <label>Your Number:</label>
+                        <input type="number" name="number" value="" placeholder="exp:95017645" id="numb"/>
+                        <br />
+                        <label> Your Mail adress:</label>
+                        <input type="mail" />
+                        </br>
+                        <textarea name="message" cols="50" rows="20" style="color:goldenrod ">
            We will reply you soon !!
         </textarea>
-      <br />
-
-      <br />
-
-      <input type="submit" value="Submit" />
-    </form>
+                        <br />
 
 
-</section>
-      
-
-<aside>
-
-<img src="C:\Users\maiso\OneDrive\Bureau\GoMyCode\Workshop\dev.jpg" width="1400px" height="400px"
+                        <input type="submit" value="Submit" id="button"   />
+                  </form>
 
 
-</aside>
-
-</main>
+            </section>
 
 
-<footer>
+            <aside>
 
-      <ul>
-      
-        <li><a href="#"> About </li> 
-        <li><a href="#"> Work  </li> 
-        <li><a href="#"> Resume</li> 
-        <li><a href="#"> Contact</li> 
-      
-      </ul>      
-</footer>
-      
-      
+                  <img src="./html-illustration.png" width="1400px" height="400px">
+            
+            </aside>
+
+             
+
+      </main>
+
+
+      <footer>
+              
+             <h2>FIND US</h2>
+             
+            <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d6467.534476726471!2d10.601673399999994!3d35.8547106!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sfr!2stn!4v1662549018136!5m2!1sfr!2stn"
+                  width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+
+
+
+            <ul>
+                <div class="liste">
+                  <li><a href="#" style="color:goldenrod"> About </li>
+                  <li><a href="#" style="color:white"> Work </li>
+                  <li><a href="#" style="color:goldenrod"> Resume</li>
+                  <li><a href="#" style="color:white"> Contact</li>
+
+                </div>
+
+            </ul>
+      </footer>
+
+
+
+
+
+
+
+
+
+
 
 
 

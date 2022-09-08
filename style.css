@@ -1,0 +1,70 @@
+h3{
+
+display: inline;
+
+}
+
+h1{
+
+color:goldenrod;
+background-color: black;
+word-spacing: 4px;
+
+
+}
+
+body{
+font-family: 'Roboto';font-size: 16px;
+background-color: rgb(61, 60, 60);
+
+}
+
+p{
+color:white ;
+
+
+}
+
+h2{
+
+letter-spacing:6px;
+background-color: goldenrod;
+
+}
+label{
+
+color:white
+
+}
+#button{
+
+background-color: goldenrod;
+font-size: large;
+font-style: oblique;
+margin-left: 140px;
+margin-bottom: 1px;
+
+
+}
+
+.liste{
+
+ color: beige;
+
+
+}
+
+form{
+margin: 10px 30px 40px 100px ;
+
+}
+#numb{
+
+ margin-left: 22px;
+
+}
+
+#name{
+
+    margin-left:36px ; 
+}
